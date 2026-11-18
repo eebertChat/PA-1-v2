@@ -68,9 +68,9 @@ In ```monalph.py```, you will find stubs for the following functions:
 
 - ```decipher_dict(cipher_dict)``` should reverse the process from ```encipher_dict```. Given a dictionary of plaintext keys and ciphertext values, the dictionary returned by ```decipher_dict``` should contain ciphertext keys and plaintext values. To reverse the pairing above, the dictionary returned by ```decipher_dict``` will contain the pair ```{'S':'a'}```.
 
--```encipher(message, cipher_dict)``` should take a message and a dictionary of plaintext : ciphertext pairs and returns the ciphertext encrypted using ```cipher_dict```.
+- ```encipher(message, cipher_dict)``` should take a message and a dictionary of plaintext : ciphertext pairs and returns the ciphertext encrypted using ```cipher_dict```.
 
--```decipher(message, cipher_dict)``` should take the message and a dictionary of ciphertext : plaintext pairs and returns the plaintext decrypted using ```cipher_dict```.
+- ```decipher(message, cipher_dict)``` should take the message and a dictionary of ciphertext : plaintext pairs and returns the plaintext decrypted using ```cipher_dict```.
 
 - ```encrypt(message, keyword)```does the encryption and hides the implementation details. User facing function.
 
