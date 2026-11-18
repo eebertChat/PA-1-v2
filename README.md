@@ -4,7 +4,7 @@ We will be exploring a couple of classical cryptography algorithms. A *monoalpha
 
 Two examples:
 
-- **Caesar Example:** 'cat' -> 'DBT'
+- **Caesar Example:** 'cat' -> 'DBU'
 
 - **Monoalph Example:** 'door' -> 'STTZ'
 
